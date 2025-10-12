@@ -26,5 +26,11 @@ COMANDOS TERMINAL GIT BASH
 		----------------------- CUIDADO AO USAR 'rm -rf' --------------------------------
 		Esse comando apaga os arquivos e diretórios de maneira recursiva, ou seja, tudo que é dependente do diretório aonde você está. Caso você esteja no Desktop ao rodar o comando -rf você irá apagar todos os arquivos que ali estão.
 
+	git status ---> Retorna o status dos arquivos do diretório já habilitado para versionamento em relação a disponibilidade dos arquivos para o commit.
+
+	git add ---> Torna disponível o arquivo para realização do commit
+
+	git commit -m "mensagem descrição" ---> Cria o versionamento com uma descrição do "chekpoint", igual a um save em um video game.
+
 	
 			
