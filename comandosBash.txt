@@ -1,0 +1,30 @@
+------------------ GIT BASH -------------------------
+
+COMANDOS TERMINAL GIT BASH
+
+	ls ---> Lista o que tem dentro do diretório (ls -a ---> mostra arquivos ocultos do diretório)
+		No diretório existem arquivos ocultos (. e ..). Esses arquivos são referências. O '.' é a referência para a própria pasta e o '..' é a referência para a pasta de nível maior
+
+	cd ---> Move para o diretório passado (cd .. ---> volta para o diretório de nível maior)
+		É necessário que você acesse sempre a pasta de nível maior para transitar entre os diretórios.
+
+		Ex: cd Desktop/
+			cd Downloads/ ----> ERRO!
+
+		    cd Desktop/
+			cd ..
+			  cd Downloads/ ----> Correto!
+
+	pwd ---> mostra o caminho absoluto do diretório que está acessando no momento
+	
+	cat ---> acessa o conteúdo do arquivo passado
+
+	git init . ---> transforma o diretório atual em um diretório capaz de realizar o versionamento
+			Pra isso, cria uma pasta oculta '.git' que é possível ser listada pelo comando 'ls -a' e acessada por 'cd .git/'
+			Caso seja feita a transformação em um diretório errado é necessário apagar a pasta através do comando: 'rm -rf .git/'
+			
+		----------------------- CUIDADO AO USAR 'rm -rf' --------------------------------
+		Esse comando apaga os arquivos e diretórios de maneira recursiva, ou seja, tudo que é dependente do diretório aonde você está. Caso você esteja no Desktop ao rodar o comando -rf você irá apagar todos os arquivos que ali estão.
+
+	
+			
