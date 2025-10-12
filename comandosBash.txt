@@ -31,6 +31,9 @@ COMANDOS TERMINAL GIT BASH
 	git add ---> Torna disponível o arquivo para realização do commit
 
 	git commit -m "mensagem descrição" ---> Cria o versionamento com uma descrição do "chekpoint", igual a um save em um video game.
+						O commit irá trazer para a versão todos os arquivos passados no 'git add', pode ser apenas um arquivo ou então um grupo de arquivos, sendo arquivos novos ou arquivos alterados.
 
+	git log ---> lista o histórico dos commits
+	
 	
 			
